@@ -1,3 +1,4 @@
+import EmailIcon from '@material-ui/icons/Email';
 import { contact } from '../../portfolio'
 import './Contact.css'
 
@@ -7,10 +8,13 @@ const Contact = () => {
   return (
     <section className='section contact center' id='contact'>
       <h2 className='section__title'>Contact</h2>
-      <a href={`mailto:${contact.email}`}>
-        <span type='button' className='btn btn--outline'>
-          Email me
-        </span>
+      <p>Let&apos;s connect!</p>
+      <a
+        href={`mailto:${contact.email}`}
+        aria-label='email'
+        className='link link--icon'
+      >
+        <p className="contact__email center"><EmailIcon />&nbsp;hollyquach@gmail.com</p>
       </a>
     </section>
   )

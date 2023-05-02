@@ -18,7 +18,11 @@
 
 .about__desc,
 .about__contact {
-  margin-top: 2.4em;
+  margin: 1.2em;
+}
+
+.about__location {
+  font-size: 0.8rem;
 }
 
 .about .link--icon {
