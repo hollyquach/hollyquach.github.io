@@ -1,13 +1,13 @@
 import uniqid from 'uniqid'
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LaunchIcon from '@material-ui/icons/Launch'
+import {GitLabIcon} from '../Icons/Icons'
 import './ProjectContainer.css'
 
 const ProjectContainer = ({ project }) => (
   <div className='project'>
     <h3>{project.name}</h3>
 
-    <p className='project__description'>{project.description}</p>
     {project.stack && (
       <ul className='project__stack'>
         {project.stack.map((item) => (
@@ -18,13 +18,25 @@ const ProjectContainer = ({ project }) => (
       </ul>
     )}
 
-    {project.sourceCode && (
+    <p className='project__description'>{project.description}</p>
+
+    {project.gitHub && (
       <a
-        href={project.sourceCode}
-        aria-label='source code'
+        href={project.gitHub}
+        aria-label='gitHub'
         className='link link--icon'
       >
         <GitHubIcon />
+      </a>
+    )}
+
+    {project.gitLab && (
+      <a
+        href={project.gitLab}
+        aria-label='gitLab'
+        className='link link--icon'
+      >
+        <GitLabIcon />
       </a>
     )}
 

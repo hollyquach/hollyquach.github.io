@@ -9,7 +9,7 @@ const about = {
   name: 'Holly Quach',
   role: 'software engineer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    'I am an action-oriented software engineer looking for a new opportunity to work in a collaborative, development-focused team. I have extensive experience as a technical project manager in both product and process development with a strong interest in data-driven optimization and continuous improvement. With those functional skills as a foundation, I am excited to tackle new challenges, and further contribute within the tech space in a different capacity.',
   resume: 'Holly-Quach-resume.pdf',
   social: {
     linkedin: 'https://linkedin.com/in/hollyquach/',
@@ -22,28 +22,29 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'BrewHop',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    stack: ['Python', 'FastAPI', 'Javascript', 'React',],
+    gitLab: 'https://gitlab.com/brewhoppers/brew-hop/',
+    livePreview: 'https://brewhoppers.gitlab.io/brew-hop/',
   },
   {
-    name: 'Project 2',
+    name: 'CarCar',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    stack: ['Python', 'Django'],
+    gitHub: 'https://github.com/hollyquach/car-car',
+    // gitLab: 'https://gitlab.com/hollyquach/car-car',
+    // livePreview: 'https://github.com',
   },
   {
-    name: 'Project 3',
+    name: 'Conference Go',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    stack: ['Python', 'Django'],
+    gitLab: 'https://gitlab.com/hollyquach/conference-go',
+    // livePreview: 'https://github.com',
   },
 ]
 
