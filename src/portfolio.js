@@ -1,6 +1,6 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://hollyquach.github.io/',
+  homepage: 'https://hollyquach.github.io',
   title: 'HQ.',
 }
 
@@ -13,7 +13,7 @@ const about = {
   resume: '%PUBLIC_URL%/Holly-Quach-resume.pdf',
   social: {
     linkedin: 'https://linkedin.com/in/hollyquach/',
-    github: 'https://github.com/hollyquach',
+    github: 'https://github.com/hollyquach/',
   },
 }
 
