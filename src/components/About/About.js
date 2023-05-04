@@ -16,7 +16,7 @@ const About = () => {
         </h1>
       )}
       <br />
-      <img src="undraw_Web_dev.png" alt="Web Development Illustration" />
+      <img src="undraw_Web_dev.png" alt="Web Development Illustration" className="banner"/>
 
       {role && <h2 className='about__role'>A {role}.</h2>}
       <p className='about__desc'>{description && description}</p>

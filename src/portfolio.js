@@ -22,7 +22,7 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'BrewHop',
+    name: <img src="BrewHop.svg" alt="BrewHop logo" className="project__img"/>,
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
     stack: ['Python', 'FastAPI', 'Javascript', 'React',],
@@ -30,7 +30,7 @@ const projects = [
     livePreview: 'https://brewhoppers.gitlab.io/brew-hop/',
   },
   {
-    name: 'CarCar',
+    name: <img src="CarCar.png" alt="CarCar logo" className="project__img"/>,
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
     stack: ['Python', 'Django'],
@@ -39,7 +39,7 @@ const projects = [
     // livePreview: 'https://github.com',
   },
   {
-    name: 'Conference Go',
+    name: <img src="ConferenceGo.svg" alt="Conference Go logo" className="project__img"/>,
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
     stack: ['Python', 'Django'],

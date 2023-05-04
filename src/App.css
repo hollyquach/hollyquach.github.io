@@ -150,9 +150,3 @@ main {
     margin-top: 4em;
   }
 }
-
-img {
-    max-width: 60%;
-    height: auto;
-    border-radius: 5%;
-}
