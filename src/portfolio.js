@@ -24,15 +24,16 @@ const projects = [
   {
     name: <img src="BrewHop.svg" alt="BrewHop logo" className="project__img"/>,
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'Web application designed help 21+ customers find breweries in areas around the United States using Yelp Fusion API.',
     stack: ['Python', 'FastAPI', 'Javascript', 'React',],
-    gitLab: 'https://gitlab.com/brewhoppers/brew-hop/',
+    gitHub: 'https://github.com/hollyquach/BrewHop',
+    // gitLab: 'https://gitlab.com/brewhoppers/brew-hop/',
     livePreview: 'https://brewhoppers.gitlab.io/brew-hop/',
   },
   {
     name: <img src="CarCar.png" alt="CarCar logo" className="project__img"/>,
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'A management system designed for car dealers to manage their inventory and track history and service appointments.',
     stack: ['Python', 'Django'],
     gitHub: 'https://github.com/hollyquach/car-car',
     // gitLab: 'https://gitlab.com/hollyquach/car-car',
@@ -41,9 +42,10 @@ const projects = [
   {
     name: <img src="ConferenceGo.svg" alt="Conference Go logo" className="project__img"/>,
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'A refactored web application designed to organize conferences including managing conference details, presentations, and attendees',
     stack: ['Python', 'Django'],
-    gitLab: 'https://gitlab.com/hollyquach/conference-go',
+    gitHub: 'https://github.com/hollyquach/conference-go',
+    // gitLab: 'https://gitlab.com/hollyquach/conference-go',
     // livePreview: 'https://github.com',
   },
 ]

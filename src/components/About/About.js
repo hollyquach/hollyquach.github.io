@@ -1,7 +1,6 @@
 import PlaceIcon from '@material-ui/icons/Place';
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import GitHubIcon from '@material-ui/icons/GitHub'
-import {GitLabIcon} from '../Icons/Icons'
 import { about } from '../../portfolio'
 import './About.css'
 
@@ -45,14 +44,6 @@ const About = () => {
               </a>
             )}
 
-            {social.gitlab && (
-              <a
-                href={social.gitlab}
-                aria-label='gitlab'
-                className='link link--icon'
-              >
-                <GitLabIcon />
-              </a>
             )}
           </>
         )}
